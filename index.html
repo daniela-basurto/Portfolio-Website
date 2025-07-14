@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniela Basurto Armijo | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Daniela Basurto Armijo</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home/Introduction Section -->
+    <section id="home" class="section">
+        <div class="home-container">
+            <div class="home-text">
+                <h1>Hi, I'm <span class="highlight">Daniela</span></h1>
+                <h2>An Aspiring Engineer</h2>
+                <p>Get to know me and the skills I can bring to your team.</p>
+                <div class="social-links">
+                    <a href="https://github.com/daniela-basurto" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/daniela-basurto-armijo-4b2011226/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <!-- <a href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                    <a href="mailto:dbasurto112@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="home-image">
+                <img src="images/undraw_workspace_s6wf.svg" alt="stock-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+   <section id="about" class="section">
+      <div class="section-container">
+         <h2 class="section-title">About Me</h2>
+         <div class="about-container">
+               <div class="about-text">
+                  <p>
+                     <b>Hi, I’m Daniela — an Electrical Engineer who’s always been curious about how things work and even more 
+                     excited about making them work better.</b> Whether it's tinkering with microcontrollers, building smart 
+                     devices, or diving into robotics projects, I love bringing ideas to life through hands-on problem solving. 
+                     Over the years, I’ve worked on everything from PCB design to automation tools, blending creativity with 
+                     technical skills. <b>I’m someone who enjoys learning new things, collaborating with others, and finding 
+                     smart solutions that help people.</b> If there’s a challenge to solve, chances are I’m already 
+                     thinking about how to build it.
+                  </p>
+                  
+                  <p>
+                     I’m originally from Monterrey, and when I’m not diving into an engineering project, you’ll usually find me 
+                     out on a hiking trail, reading a good book, or improving my tennis skills. I’m a big fan of movies — especially horror — 
+                     and I love pretending I’m a serious film critic while watching or discussing them (letterboxd reviews pending). 
+                     In my free time, I like to unwind by playing instruments — mainly violin, piano, or guitar — which keeps 
+                     my creative side engaged. I thrive on challenges that let me explore new ideas and grow as both an engineer and a creator.
+                  </p>
+                  
+                  <div class="about-links">
+                     <!-- <a href="#" class="btn">Download Resume</a> -->
+                      <a href="docs/DanielaBasurto_Resume_Updated2.pdf" download="DanielaBasurto-Resume.pdf" class="btn">Download Resume</a>
+                     <a href="#contact" class="btn btn-outline">Contact Me</a>
+                  </div>
+               </div>
+               <div class="about-images">
+                  <div class="about-image-wrapper">
+                     <img src="images/me/school_me3.jpg" alt="About me image 1" class="about-image">
+                  </div>
+                  <div class="about-image-wrapper">
+                     <img src="images/me/dog-y.png" alt="About me image 2" class="about-image">
+                  </div>
+                  <div class="about-image-wrapper">
+                     <img src="images/me/hike_me2.jpg" alt="About me image 3" class="about-image">
+                  </div>
+               </div>
+         </div>
+      </div>
+   </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Skills</h2>
+            
+            <!-- Languages Card -->
+            <div class="skill-category horizontal-card">
+                <h3><i class="fas fa-code"></i> Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="images/skills/javascript.png" alt="JavaScript" class="skill-icon">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/Other-html-5-icon.png" alt="HTML" class="skill-icon">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/css3.png" alt="CSS" class="skill-icon">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/python.png" alt="Python" class="skill-icon">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/c++.png" alt="C++" class="skill-icon">
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/Matlab_Logo.png" alt="MATLAB" class="skill-icon">
+                        <span>MATLAB</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Frameworks Card -->
+            <div class="skill-category horizontal-card">
+                <h3><i class="fas fa-cubes"></i> Frameworks</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="images/skills/reactjs.png" alt="ReactJS" class="skill-icon">
+                        <span>React JS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/Tensorflow_logo.svg.png" alt="TensorFlow" class="skill-icon">
+                        <span>TensorFlow</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/pytorch-logo.png" alt="Pytorch" class="skill-icon">
+                        <span>Pytorch</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CAD & 3D Design Card -->
+            <div class="skill-category horizontal-card">
+                <h3><i class="fas fa-cube"></i> CAD & 3D Design</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <!-- <i class="fab fa-git-alt"></i>
+                            <span>Git</span> -->
+                        <img src="images/skills/soliworks.png" alt="SolidWorks" class="skill-icon">
+                        <span>SolidWorks</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/autodesk-fusion-360-logo-png_seeklogo-482400.png" alt="Fusion 360" class="skill-icon">
+                        <span>Fusion 360</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/onshape.png" alt="OnShape" class="skill-icon">
+                        <span>OnShape</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Development & Automation Card -->
+            <div class="skill-category horizontal-card">
+                <h3><i class="fas fa-robot"></i> Development & Automation</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="images/skills/Linux-logo.png" alt="Linux ROS" class="skill-icon">
+                        <span>Linux ROS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/plc.png" alt="PLC" class="skill-icon">
+                        <span>PLC</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/git.png" alt="Git" class="skill-icon">
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/powerapps.png" alt="Microsoft Power Apps" class="skill-icon">
+                        <span>Microsoft Power Apps</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/powerautomate.png" alt="Microsoft Power Automate" class="skill-icon">
+                        <span>Microsoft Power Automate</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/Microsoft-Power-BI-Logo.png" alt="Power BI" class="skill-icon">
+                        <span>Power BI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Electronics & Embedded Systems Card -->
+            <div class="skill-category horizontal-card">
+                <h3><i class="fas fa-robot"></i> Electronics & Embedded Systems</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="images/skills/pspice.png" alt="PSpice" class="skill-icon">
+                        <span>PSpice</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/labview.png" alt="LabView" class="skill-icon">
+                        <span>LabView</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/kicad.png" alt="KiCad" class="skill-icon">
+                        <span>KiCad</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/altium-designer.png" alt="Altium" class="skill-icon">
+                        <span>Altium</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/Arduino_IDE_logo.svg.png" alt="Arduino" class="skill-icon">
+                        <span>Arduino</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/esp32.png" alt="ESP32" class="skill-icon">
+                        <span>ESP32</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/esp8266.png" alt="ESP8266" class="skill-icon">
+                        <span>ESP8266</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/attiny85-c4x.png" alt="Attiny85" class="skill-icon">
+                        <span>Attiny85</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/raspi.png" alt="Raspberyy Pi" class="skill-icon">
+                        <span>Raspberry Pi</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/RFID.jpg" alt="RFID Modules" class="skill-icon">
+                        <span>RFID Modules</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="images/skills/ADC_Icon.png" alt="Analog & Digital Sensors" class="skill-icon">
+                        <span>Analog & Digital Sensors</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/breatheasy.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Capstone Project</h3>
+                        <p>
+                           BreatheEasy – Digital Inhaler is a smart, ergonomic device that helps 
+                           users improve their inhaler technique. It uses sensors to monitor air 
+                           quality, detect shaking, and measure breath strength, then syncs with 
+                           a mobile app via Bluetooth for real-time feedback. Designed to boost 
+                           medication effectiveness and user confidence.
+                        </p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a> -->
+                        </div>
+                        <div class="project-tech">
+                            <span>KiCad</span>
+                            <span>ESP32</span>
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/mundo3d2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>DIY IR LED Controller</h3>
+                        <p>
+                           Designed a infrared remote and reciever system built to reuse leftover 
+                           LED strips without remotes. This project was started to help save money 
+                           and reduce waste because why toss perfectly good LED strips. This design 
+                           uses an ATtiny85 and transistors, it mirrors commercial RGB/W lighting 
+                           setups and is fully customizable. 
+                        </p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a> -->
+                        </div>
+                        <div class="project-tech">
+                            <span>Attiny85</span>
+                            <span>C++</span>
+                            <span>Transmitter & Reciever</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/mundo3d3.PNG" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mundo 3D</h3>
+                        <p>
+                           An ongoing personal business offering custom 3D prints, from commercial 
+                           orders to seasonal designs. Specializes in fidgets, LED-lit boxes, masks, 
+                           and keychains. Continuously experimenting with materials, finishes, and new 
+                           product ideas to improve quality and expand creative offerings. Because if it 
+                           can be printed, it should be printed.
+                        </p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            <a href="https://linktr.ee/samundo3d" target="_blank"><i class="fab fa-instagram"></i> Check out our link tree!</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>3D Printing</span>
+                            <span>OnShape</span>
+                            <span>Design</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/balllaunher.jpeg" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>Automated Dog Ball Launcher</h3>
+                        <p>
+                           An Arduino Nano-powered launcher that allows your dog to play independently. 
+                           Uses simple sensors and a motor controller to detect when a ball is dropped 
+                           in and launch it. A budget-friendly, open-source project built to solve a real-life 
+                           problem in a fun and useful way. Second version cooming soon!
+                        </p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a> -->
+                        </div>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Motor Control</span>
+                            <span>Sensnors</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/ros.png" alt="Project 5">
+                    </div>
+                    <div class="project-info">
+                        <h3>Testing ROS Navigation Algorithms</h3>
+                        <p>
+                           A robotics simulation project where different autonomous navigation algorithms 
+                           were tested using TurtleBot in custom-built Gazebo environments. Focused on 
+                           comparing SLAM, path planning, and obstacle avoidance performance to evaluate 
+                           efficiency under varying conditions in a Linux-ROS setup.
+                        </p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a> -->
+                        </div>
+                        <div class="project-tech">
+                            <span>ROS</span>
+                            <span>OpenCV</span>
+                            <span>Gazebo</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/labview.PNG" alt="Project 6">
+                    </div>
+                    <div class="project-info">
+                        <h3>LabVIEW Resistivity Lab Automator</h3>
+                        <p>
+                           Designed and programmed a LabVIEW interface to automate data collection in a resistivity lab. 
+                           The system improved measurement accuracy and streamlined the use of the 4-probe method, 
+                           enabling better analysis of dielectric material properties in an academic research 
+                           environment.
+                        </p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> Source Code</a> -->
+                        </div>
+                        <div class="project-tech">
+                            <span>Labview</span>
+                            <span>Controls & Automation</span>
+                            <span>Lab Instruments</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Feel free to reach out!</p>
+            <a href="mailto:dbasurto112@gmail.com" class="btn">Say Hello</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Daniela Basurto Armijo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
